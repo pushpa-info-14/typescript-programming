@@ -1,0 +1,34 @@
+# Compiled JavaScript and source maps
+/dist
+/lib
+/*.js
+/*.js.map
+
+# Dependency directory
+/node_modules
+
+# Logs and runtime data
+logs
+*.log
+npm-debug.log*
+pids
+*.pid
+*.seed
+
+# Environment variables
+.env
+.env.*
+
+# OS generated files
+.DS_Store # macOS
+.idea     # IDE specific files
+.vscode   # VS Code specific files (consider adding exceptions for shared settings)
+**/.vs    # Visual Studio specific files
+
+# Coverage directory
+coverage
+.nyc_output
+
+# Temporary files
+temp
+*.tmp

@@ -1,0 +1,31 @@
+# top-most EditorConfig file
+root = true
+
+# Default settings
+[*]
+charset = utf-8
+end_of_line = lf
+insert_final_newline = true
+trim_trailing_whitespace = true
+indent_style = tab
+indent_size = 4
+
+# TypeScript / JavaScript
+[*.{ts,tsx,js,jsx}]
+indent_size = 4
+
+# JSON files
+[*.json]
+indent_size = 4
+
+# YAML
+[*.{yml,yaml}]
+indent_size = 4
+
+# Markdown (don’t trim trailing whitespace)
+[*.md]
+trim_trailing_whitespace = false
+
+# C#
+[*.cs]
+indent_size = 4

@@ -10,6 +10,7 @@ function minPartitions(n: string): number {
 
 function minPartitions2(n: string): number {
 	return Math.max(...n.split("").map(Number));
+	// Math.max(8, 2, 7, 3, 4)
 }
 
 console.log(minPartitions("32"));

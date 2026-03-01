@@ -8,6 +8,14 @@ function minPartitions(n: string): number {
 	return 0;
 }
 
+function minPartitions2(n: string): number {
+	return Math.max(...n.split("").map(Number));
+}
+
 console.log(minPartitions("32"));
 console.log(minPartitions("82734"));
 console.log(minPartitions("27346209830709182346"));
+console.log("----------");
+console.log(minPartitions2("32"));
+console.log(minPartitions2("82734"));
+console.log(minPartitions2("27346209830709182346"));
